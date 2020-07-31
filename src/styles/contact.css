@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.contact {
+  background-color: beige;
+}
+
+.contact-details h1 {
+  background-color: teal;
+  color: white;
+  font-size: 30px;
+  font-family: PopRegular;
+  text-align: center;
+  padding: 25px;
+}
+
+.contact-details h1:hover {
+  background-color: white;
+  color: teal;
+}
+
+.socialLinksContact h1 {
+  font-family: PopRegular;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.socialLinksContact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  background-color: teal;
+}
+
+.socialLinksContact a {
+  text-decoration: none;
+}
+
+.form {
+  background-color: #353535;
+  padding: 50px;
+}
+
+.form p {
+  font-size: 25px;
+  font-family: PopRegular;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: teal;
+  font-size: 15px;
+  font-family: PopRegular;
+  color: white;
+  padding: 14px 20px;
+  width: 100%;
+  border: black;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.button:hover {
+  background-color: teal;
+  border: white;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+/* Full-width input fields */
+input[type="email"],
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  background: #f1f1f1;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+@media (max-width: 414px) {
+  .contact-details h1 {
+    font-size: 15px;
+  }
+  .button {
+    width: 100%;
+  }
+  .form p {
+    font-size: 12px;
+  }
+}
